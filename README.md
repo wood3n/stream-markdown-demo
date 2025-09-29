@@ -2,6 +2,8 @@
 
 一个使用 Server-Sent Events (SSE) 实时推送 Markdown，并在前端通过 Streamdown 组件进行渐进式渲染与完整样式展示的示例项目。支持代码高亮（Shiki）、数学公式（KaTeX）、表格、Mermaid 图表，以及 Tailwind v4 + Typography 的优雅排版与深浅色主题。
 
+<img src="./screenshot.gif" alt="demo" />
+
 ## 特性
 - 实时流式 Markdown：后端以 ReadableStream + SSE 推送内容，前端随到随渲染。
 - 完整样式与高亮：Shiki 代码高亮、KaTeX 公式、GFM 表格与列表、Mermaid 图表渲染。
